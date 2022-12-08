@@ -1,3 +1,76 @@
 body {
     background-color: rgb(253, 251, 251);
+    margin: 0;
+}
+
+#cabeçalho {
+    width: 1240
+    px;
+    margin: 10;
+    top: 0px;
+    padding: 10px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    background-color: green;
+    text-align: center;
+    color: aliceblue;
+    border: 0;
+}
+
+#nav-bar {
+    list-style-type: none; 
+    text-align: left;
+}
+
+#minha-foto {
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.licoes-aprendidas {
+    width: 50px;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.licoes-a-aprender {
+    width: 50%;
+    min-width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#tabela {
+    border: 2px solid #000000;
+    padding: 20px;
+    margin: auto;
+}
+
+#article {
+    width: 300px;
+    left: auto;
+}
+
+#asite {
+    width: 300px;
+    right: auto;    
+}
+
+.article {
+    float: left;
+    width: 300px;
+    margin: 150px;
+}
+
+.aside {
+    float: right;
+    width: 300px;
+    margin: 150px;
+}
+
+.copyright {
+    text-align: LEFT; 
 }
